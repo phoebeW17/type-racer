@@ -19,3 +19,10 @@ h1 {
     height: 75%; /* Adjust the height as needed */
 }
 
+/*Game buttons */
+
+.btn-outline-custom {
+    border-color: #ff8400;
+    border-width: 2px;
+    margin: 10px;
+}
