@@ -5,5 +5,9 @@
 
 h1 {
     font-family: "Alegreya";
-    color: #ff8400;
+    color: white;
+}
+
+.custom-header {
+    background-color: #ff8400;
 }
