@@ -15,15 +15,14 @@
 <body>
     <header class="d-flex flex-column justify-content-center align-items-center p-3 custom-header">
         <h1>TypeRacer</h1>
-        <button type="button" class="btn btn-primary mt-2">Instructions</button>
+        <button type="button" class="btn btn-light mt-2 rounded-0">Instructions</button>
     </header>
-
+    <!--Typing test -->
     <div class="container mt-4">
         <div class="row">
             <div class="col-12 col-md-8">
                 <!-- Test area -->
-                <div class="p-3 border bg-light">
-                    <h2>Typing Test</h2>
+                <div class="p-3 border">
                     <!-- Dropdown menu for selecting difficulty -->
                     <div class="input-group mb-3">
                         <label class="input-group-text" for="difficultySelect">Select Difficulty</label>
@@ -33,12 +32,17 @@
                             <option value="hard">Hard</option>
                         </select>
                     </div>
+                    <div>
+                        <h5>Test your typing speed by typing the text shown below:</h5>
+                    </div>
                     <!-- Sample text for typing -->
-                    <p id="sampleText">The quick brown fox jumps over the lazy dog.</p>
+                    <div class="p-3 border mb-3">
+                        <p id="sampleText">The quick brown fox jumps over the lazy dog.</p>
+                    </div>
                     <!-- Text box for typing -->
                     <div class="mb-3">
-                        <label for="typingInput" class="form-label">Type here:</label>
-                        <input type="text" class="form-control" id="typingInput">
+                        <label for="typingInput" class="form-label"></label>
+                        <input type="text" class="form-control typing-input" id="typingInput" placeholder="Click the start button to begin the test">
                     </div>
                     <!-- Buttons to start, stop, and retry the test -->
                     <div class="d-flex justify-content-between">

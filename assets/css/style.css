@@ -8,6 +8,14 @@ h1 {
     color: white;
 }
 
+/*Nav bar style*/
 .custom-header {
     background-color: #ff8400;
 }
+
+
+/*Text box height*/
+.typing-input{
+    height: 75%; /* Adjust the height as needed */
+}
+
