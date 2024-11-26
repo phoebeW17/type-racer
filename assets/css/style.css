@@ -8,6 +8,10 @@ h1 {
     color: white;
 }
 
+body {
+    font-family: "Nunito";
+}
+
 /*Nav bar style*/
 .custom-header {
     background-color: #ff8400;
@@ -25,4 +29,10 @@ h1 {
     border-color: #ff8400;
     border-width: 2px;
     margin: 10px;
+}
+
+/*Results area*/
+
+.custom-border {
+    border: 2px solid #ff8400;
 }
